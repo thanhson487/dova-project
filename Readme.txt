@@ -1,1 +1,1 @@
-Dova Design by Trang
+Dova Design
