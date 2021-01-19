@@ -1,0 +1,80 @@
+.marketing-main {
+    background: url("../img/home/choose-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.marketing-box-title-main {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.marketing-content-main {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.marketing-content {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.marketing-box-title-main {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .marketing-box-title-main {
+        font-size: 18px;
+    }
+    .marketing-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .marketing-box-title-main {
+        font-size: 21px;
+    }
+    .marketing-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .marketing-box-title-main {
+        font-size: 24px;
+    }
+    .marketing-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .marketing-box-title-main {
+        font-size: 33px;
+    }
+    .marketing-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .marketing-box-title-main {
+        font-size: 40px;
+    }
+    .marketing-content {
+        font-size: 18px;
+    }
+    #marketing-content {
+        font-size: 19px;
+    }
+}

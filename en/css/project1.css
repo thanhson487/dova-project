@@ -1,0 +1,328 @@
+.project {
+    background-image: url(../img/home/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.row-project1 {
+    margin-bottom: 15rem;
+}
+
+.the-p {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #91d6ff;
+}
+
+.thumbnail {
+    height: 199px;
+    width: 179px;
+    margin-right: 22px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.thumbnail {
+    height: 199px;
+    width: 179px;
+    margin-right: 22px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    max-width: auto;
+}
+
+.class-name-project {
+    font-size: 29.85px;
+    display: flex;
+    justify-content: center;
+    background-color: #315797;
+    width: 179px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+
+.coverblue {
+    height: 15px;
+    background-color: #6cbdee;
+}
+
+.main {
+    height: 100%;
+    background-color: rgba(207, 204, 203, 0.3);
+}
+
+.class-name-project {
+    padding-bottom: 10px;
+}
+
+.text-duAn {
+    font-size: 50px;
+    /* display: flex;
+    justify-content: center;*/
+}
+
+.cover {
+    padding-right: 25px;
+    background-color: #315798;
+}
+
+.text-duAn .the-p {
+    margin-bottom: 1rem;
+}
+
+.container-cover {
+    padding-top: 20px;
+}
+
+@media (max-width:576px) {
+    .cover {
+        background-color: #e8dcdc;
+    }
+    .class-name-project {
+        background-color: #e8dcdc;
+        font-weight: bold;
+    }
+    .projects {
+        writing-mode: horizontal-tb;
+        font-size: 30px;
+        text-transform: uppercase;
+        display: flex;
+        margin-right: 0px;
+        letter-spacing: 2px;
+        color: #4d8fff;
+    }
+    .the-p {
+        font-size: 20px;
+        color: #6cbdee;
+    }
+    .class-name-project {
+        color: #727272;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        /* background-color: #315797;*/
+        width: 179px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 0rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1199px) {
+    .projects {
+        text-transform: uppercase;
+        font-size: 68px;
+        writing-mode: vertical-rl;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        letter-spacing: 2px;
+        color: #315797;
+    }
+    .class-name-project {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-thumbnail {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        width: 54%;
+        height: 100%;
+    }
+    .container-cover {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coverblue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+    }
+    .text-duAn {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .text-vuctieubieu p {
+        margin-bottom: 0rem;
+    }
+    .cover {
+        background-color: #e8dcdc;
+    }
+    /*.class-name-project {
+        
+    }*/
+    .img-top {
+        margin-top: 15px;
+    }
+    .text-duAn {
+        float: left;
+    }
+    .the-p {
+        padding-top: 10px;
+        color: #6cbdee;
+        font-size: 25px;
+    }
+    .projects {
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-right: 0px;
+        letter-spacing: 2px;
+        color: #315797;
+    }
+    .class-name-project {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        width: 179px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 0rem;
+        margin-top: 0.5rem;
+        background-color: #e8dcdc;
+        font-weight: bold;
+    }
+    .project-left {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-thumbnail {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        width: 54%;
+        height: 100%;
+    }
+    .container-cover {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coverblue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+    }
+    .text-duAn {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .text-vuctieubieu p {
+        margin-bottom: 0rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .img-thumbnail {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        width: 54%;
+        height: 100%;
+    }
+    .container-cover {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coverblue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+    }
+    .text-duAn {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .text-vuctieubieu p {
+        margin-bottom: 0rem;
+    }
+    .class-name-project {
+        font-size: 20px;
+        padding-top: 7px;
+        padding-bottom: 0px;
+        background-color: #e8dcdc;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .cover {
+        background-color: #e8dcdc;
+    }
+    .img-top {
+        margin-top: 15px;
+    }
+    .text-duAn {
+        float: left;
+    }
+    .the-p {
+        color: #6cbdee;
+        font-size: 20px;
+    }
+    .projects {
+        text-transform: uppercase;
+        font-size: 35px;
+        margin-right: 0px;
+        letter-spacing: 2px;
+        color: #315797;
+    }
+    .project-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(min-width:1200px) {
+    .projects {
+        writing-mode: vertical-rl;
+        text-transform: uppercase;
+        font-size: 60px;
+        margin-right: 0px;
+        letter-spacing: 2px;
+        color: #315797;
+    }
+    .class-name-project {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+.wrap-img:hover img:not(:hover) {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .75;
+}

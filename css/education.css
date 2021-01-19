@@ -1,0 +1,72 @@
+.education-main {
+    background: url("../img/home/choose-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.education-box-title-main {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.education-content {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.education-box-title-main {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .education-box-title-main {
+        font-size: 18px;
+    }
+    .education-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .education-box-title-main {
+        font-size: 27px;
+    }
+    .education-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .education-box-title-main {
+        font-size: 29px;
+    }
+    .education-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .education-box-title-main {
+        font-size: 40px;
+    }
+    .education-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .education-box-title-main {
+        font-size: 44px;
+    }
+    .education-content {
+        font-size: 18px;
+    }
+}

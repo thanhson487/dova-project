@@ -1,0 +1,69 @@
+.outsourcing-main {
+    background: url("../img/home/choose-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.oursourcing-box-title-main {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.oursourcing-content {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.oursourcing-box-title-main {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .oursourcing-box-title-main {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .oursourcing-box-title-main {
+        font-size: 30px;
+    }
+    .oursourcing-content {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .oursourcing-box-title-main {
+        font-size: 35px;
+    }
+    .oursourcing-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .oursourcing-box-title-main {
+        font-size: 40px;
+    }
+    .oursourcing-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .oursourcing-box-title-main {
+        font-size: 44px;
+    }
+    .oursourcing-content {
+        font-size: 18px;
+    }
+}

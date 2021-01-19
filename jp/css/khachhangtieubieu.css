@@ -1,0 +1,310 @@
+.khachhangtieubieu {
+    background: url("../img/home/sevice-process-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.khachhangtieubieu-cover {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.cover-title-main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.khachhangtieubieu-title-1 {
+    display: inline-block;
+    color: #1764a9;
+}
+
+.khachhangtieubieu-title-1-left {
+    font-weight: 900;
+    color: #2bbbed;
+}
+
+.khachhangtieubieu-title-1-right-1,
+.khachhangtieubieu-title-1-right-2 {
+    color: #1764a9;
+}
+
+.khachhangtieubieu-title-2 {
+    text-align: justify;
+}
+
+.khachhangtieubieu-img-right {
+    overflow: hidden;
+}
+
+.khachhangtieubieu-img-1 {
+    width: 100%;
+}
+
+.khachhangtieubieu-title {
+    text-align: justify;
+}
+
+.khachhangtieubieu-title-main {
+    display: inline-block;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.khachhangtieubieu-title-main,
+.content-ket-qua {
+    margin-bottom: 18px;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.khachhangtieubieu-img-logo {
+    max-width: 100%;
+    width: 264px;
+    height: auto;
+}
+
+.khachhangtieubieu-logo-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.khachhangtieubieu-project-name {
+    color: #000000;
+    font-weight: bold;
+}
+
+.khachhangtieubieu-title-description {
+    color: #1764a9;
+}
+
+.khachhangtieubieu-trien-khai-du-an {
+    display: flex;
+    justify-content: center;
+}
+
+.khachhangtieubieu-trien-khai-du-an p {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #01579B;
+    color: #01579B;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.khachhangtieubieu-ket-qua {
+    display: flex;
+    justify-content: center;
+}
+
+.khachhangtieubieu-ket-qua {
+    display: flex;
+    justify-content: center;
+    color: #01579B;
+}
+
+.content-ket-qua {
+    font-size: 17px;
+    color: #1764a9
+}
+
+.khachhangtieubieu-project-name {
+    font-size: 25px;
+}
+
+.khachhangtieubieu-about-project {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.khachhangtieubieu-title-description {
+    font-size: 17px;
+}
+
+.khachhangtieubieu-ket-qua p {
+    font-size: 35px;
+    color: #01579B;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #01579B;
+    font-weight: bold;
+}
+
+.row-project-name {
+    margin-bottom: 40px;
+}
+
+.khachhangtieubieu-title-description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.content-ket-qua-iframe {
+    display: flex;
+    justify-content: center;
+}
+
+.khachhangtieubieu-title-description {
+    text-align: justify;
+}
+
+.khachhangtieubieu-title-2,
+.khachhangtieubieu-title-1 {
+    text-align: justify;
+}
+
+.box-covers {
+    margin-bottom: 100px;
+    margin-top: 100px
+}
+
+@media (max-width:576px) {
+    .khachhangtieubieu-title-description {
+        font-size: 15px;
+    }
+    .khachhangtieubieu-trien-khai-du-an p {
+        font-size: 28px;
+    }
+    .khachhangtieubieu-title-2 {
+        font-size: 15px;
+    }
+    .hidden-xs {
+        display: flex;
+        flex-direction: column;
+    }
+    .visible-xs {
+        display: none !important;
+    }
+    .khachhangtieubieu-title-main {
+        font-size: 30px;
+    }
+    .khachhangtieubieu-title-1-left {
+        font-size: 3.5rem;
+    }
+    .khachhangtieubieu-title-1-right-1,
+    .khachhangtieubieu-title-1-right-2 {
+        font-size: .9rem;
+        font-weight: 750;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .khachhangtieubieu-trien-khai-du-an p {
+        font-size: 30px;
+    }
+    .hidden-xs {
+        display: flex;
+        flex-direction: column;
+    }
+    .visible-xs {
+        display: none !important;
+    }
+    .khachhangtieubieu-title-main {
+        font-size: 35px;
+    }
+    .khachhangtieubieu-title-1-left {
+        font-size: 4rem;
+    }
+    .khachhangtieubieu-title-1-right-1,
+    .khachhangtieubieu-title-1-right-2 {
+        font-size: 1.3rem;
+        font-weight: 750;
+    }
+    .khachhangtieubieu-title-2 {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .khachhangtieubieu-trien-khai-du-an p {
+        font-size: 31px;
+    }
+    .hidden-xs {
+        display: flex;
+        flex-direction: column;
+    }
+    .visible-xs {
+        display: none !important;
+    }
+    .khachhangtieubieu-title-main {
+        font-size: 38px;
+    }
+    .khachhangtieubieu-title-1-left {
+        font-size: 5rem;
+    }
+    .khachhangtieubieu-title-1-right-1,
+    .khachhangtieubieu-title-1-right-2 {
+        font-size: 1.3rem;
+        font-weight: 750;
+    }
+    .khachhangtieubieu-title-2 {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .khachhangtieubieu-trien-khai-du-an p {
+        font-size: 32px;
+    }
+    .hidden-xs {
+        display: none !important;
+    }
+    .visible-xs {
+        display: flex;
+        flex-direction: column;
+    }
+    .khachhangtieubieu-title-main {
+        font-size: 45px;
+    }
+    .khachhangtieubieu-title-1-left {
+        font-size: 5rem;
+    }
+    .khachhangtieubieu-title-1-right-1,
+    .khachhangtieubieu-title-1-right-2 {
+        font-size: 1.2rem;
+        font-weight: 750;
+    }
+    .box {
+        padding-left: 80px;
+    }
+    .khachhangtieubieu-title-2 {
+        font-size: 17px;
+    }
+}
+
+@media (min-width:1200px) {
+    .khachhangtieubieu-trien-khai-du-an p {
+        font-size: 35px;
+    }
+    .hidden-xs {
+        display: none !important;
+    }
+    .visible-xs {
+        display: flex;
+        flex-direction: column;
+    }
+    .khachhangtieubieu-title-main {
+        font-size: 50px;
+    }
+    .khachhangtieubieu-title-1-left {
+        font-size: 5.5rem;
+    }
+    .khachhangtieubieu-title-1-right-1,
+    .khachhangtieubieu-title-1-right-2 {
+        font-size: 1.5rem;
+        font-weight: 750;
+    }
+    .box {
+        padding-left: 80px;
+    }
+}

@@ -1,0 +1,80 @@
+.web-sys-main {
+    background: url("../img/home/choose-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.web-sys-box-title-main {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.web-sys-content {
+    text-align: justify;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .web-sys-box-title-main {
+        height: 74px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .web-sys-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .web-sys-box-title-main {
+        height: 74px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .web-sys-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .web-sys-box-title-main {
+        height: 74px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .web-sys-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .web-sys-box-title-main {
+        height: 74px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .web-sys-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .web-sys-box-title-main {
+        height: 74px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .web-sys-content {
+        font-size: 18px;
+    }
+}

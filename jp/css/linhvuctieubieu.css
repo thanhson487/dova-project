@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+    .linhvuctieubieu-cover {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .linhvuctieubieu-cover {
+        height: 540px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .class-name-project {
+        color: black;
+    }
+}
+
+@media (max-width: 767px) {
+    .class-name-project {
+        color: black;
+    }
+}

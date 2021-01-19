@@ -1,0 +1,72 @@
+.network-main {
+    background: url("../img/home/choose-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
+    background-blend-mode: multiply;
+    background-color: #636465;
+}
+
+.network-box-title-main {
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.network-content {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.network-box-title-main {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .network-box-title-main {
+        font-size: 18px;
+    }
+    .network-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .network-box-title-main {
+        font-size: 21px;
+    }
+    .network-content {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .network-box-title-main {
+        font-size: 24px;
+    }
+    .network-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .network-box-title-main {
+        font-size: 33px;
+    }
+    .network-content {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1200px) {
+    .network-box-title-main {
+        font-size: 40px;
+    }
+    .network-content {
+        font-size: 18px;
+    }
+}
